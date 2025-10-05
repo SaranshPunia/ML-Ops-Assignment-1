@@ -37,7 +37,3 @@ python train2.py
 ## CI
 
 On pushes to the `kernelridge` branch, GitHub Actions will automatically run both training scripts.
-
-## License
-
-MIT License.
