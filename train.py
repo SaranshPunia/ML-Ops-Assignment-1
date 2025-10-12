@@ -10,6 +10,6 @@ def main():
     mse = train_and_evaluate(model, with_scaler=False,
     X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test)
     print(f"DecisionTreeRegressor Test MSE: {mse:.6f}")
-
+    print(1)
 if __name__ == "__main__":
     main()
